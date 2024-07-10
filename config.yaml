@@ -48,7 +48,7 @@ menus:
       weight: 2
 
     - name: "Estrutura"
-      url: "/#"
+      url: "/#estrutura"
       weight: 3
 
     - name: "Aplicação"
@@ -75,7 +75,7 @@ menus:
       weight: 2
 
     - name: "Estrutura"
-      url: "/#"
+      url: "/#estrutura"
       weight: 3
 
     - name: "Aplicação"
