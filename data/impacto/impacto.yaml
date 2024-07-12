@@ -1,7 +1,7 @@
 enabled: false
 id: "Impactos"
 
-content: Impactos
+content: "Impactos
 [inserir imagem]
 Quais os impactos à ciência, à tecnologia e à sociedade devido ao crescimento do uso da inteligência artificial?
 Indústria
@@ -17,5 +17,4 @@ Simulação de propagação de doenças contagiosas.
 Previsão de crescimento de tumores.
 Diagnóstico automatizado de doenças por meio de imagens.
 Educação
-Ensino a distância automatizado.
-
+Ensino a distância automatizado."
