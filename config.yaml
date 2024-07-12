@@ -39,8 +39,8 @@ params:
 
 menus:
   main:
-    - name: "O que é o CPA-IA?"
-      url: "/#o-que-e"
+    - name: "H4i"
+      url: "/#hero"
       weight: 1
 
     - name: "Pesquisa"
