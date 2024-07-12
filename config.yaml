@@ -43,19 +43,19 @@ menus:
       url: "/#hero"
       weight: 1
 
-    - name: "Projetos"
+    - name: "Linhas de Pesquisa"
       url: "/#services"
       weight: 2
 
-    - name: "Equipe"
+    - name: "Pesquisadores"
       url: "/#team"
       weight: 3
 
-    - name: "Aplicação"
-      url: "/#aplicacao"
+    - name: "Cursos"
+      url: "/#portifolio"
       weight: 4
 
-    - name: "Blog"
+    - name: "Noticias"
       url: "/blog"
       weight: 5
 
@@ -66,23 +66,23 @@ menus:
       pre: "btn btn-primary text-light"
 
   footer:
-    - name: "O que é o CPA-IA?"
+    - name: "H4i"
       url: "/#hero"
       weight: 1
 
-    - name: "Pesquisa"
-      url: "/#pesquisa"
+    - name: "Linhas de Pesquisa"
+      url: "/#services"
       weight: 2
 
-    - name: "Estrutura"
-      url: "/#estrutura"
+    - name: "Pesquisadores"
+      url: "/#team"
       weight: 3
 
-    - name: "Aplicação"
-      url: "/#aplicacao"
+    - name: "Cursos"
+      url: "/#portifolio"
       weight: 4
 
-    - name: "Blog"
+    - name: "Noticias"
       url: "/blog"
       weight: 5
 
