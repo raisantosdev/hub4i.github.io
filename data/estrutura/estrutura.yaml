@@ -1,7 +1,11 @@
-Estrutura
-[inserir imagem]
-O CPA-IA está estruturado em seis grandes eixos:
-Dados.
+enabled: false
+id: "estrutura"
+
+content:
+  - image: "images/portfolio-ecommerce.png"
+    pretitle: "Metodologia"
+    title: "Metodologia"
+    text: "O CPA-IA está estruturado em seis grandes eixos: Dados.
 Modelos de IA.
 Interface Humano – IA.
 Al DevOps.
@@ -40,5 +44,4 @@ A aplicação deverá permitir a construção, parametrização e execução de 
 A aplicação deverá permitir a criação e treinamento de redes K-NN.
 A aplicação deverá permitir a construção e execução de máquinas de vetores de suporte.
 A aplicação deverá permitir a aquisição de dados em formatos CSV, Excel, JSON, Pajek e Gephi.
-A aplicação deverá permitir a visualização de gráficos de séries temporais.
-
+A aplicação deverá permitir a visualização de gráficos de séries temporais."
