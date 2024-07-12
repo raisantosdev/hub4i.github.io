@@ -1,0 +1,34 @@
+enabled: true
+id: "questoes"
+
+content:
+  title: "Questões motivadoras"
+  text: "Identificando a necessidade de IA na sociedade"
+  cards:
+    - image: "images/services-web-development.png"
+      title: "O que?"
+      text: "Quais os principais problemas que atualmente requerem algum tipo de inteligência artificial para serem resolvidos?"
+      button:
+        label: "Entenda"
+        url: "#"
+        
+    - image: "images/services-web-development.png"
+      title: "Porque?"
+      text: "Porque esses problemas requerem inteligência artificial para sua solução?"
+      button:
+        label: "Entenda"
+        url: "#"
+        
+    - image: "images/services-web-development.png"
+      title: "Como?"
+      text: "Quais os métodos de inteligência artificial mais utilizados para solução desses problemas? \n Quais as tecnologias mais usadas na implementação desses métodos de inteligência artificial?"
+      button:
+        label: "Entenda"
+        url: "#pesquisa"
+        
+    - image: "images/services-web-development.png"
+      title: "Qual o resultado?"
+      text: "Que impactos o uso crescente destas tecnologias tem causado à ciência, à indústria e à sociedade?"
+      button:
+        label: "Entenda"
+        url: "#impacto"

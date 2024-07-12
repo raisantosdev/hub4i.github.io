@@ -1,0 +1,44 @@
+Estrutura
+[inserir imagem]
+O CPA-IA está estruturado em seis grandes eixos:
+Dados.
+Modelos de IA.
+Interface Humano – IA.
+Al DevOps.
+Aplicações Industriais.
+Segurança, Privacidade e Desenvolvimento Sustentável. 
+Aplicações segundo os eixos
+Eixo 1 – Dados:
+Importação de dados; pré-processamento de dados; classificação de dados; mineração de dados.
+Eixo 2 – Modelos de IA
+Criação assistida e manual de modelos de IA.
+Eixo 3 – Interface humano – IA:
+Processamento de linguagem natural; navegação autônoma e assistida.
+Eixo 4 – AI DevOps:
+Criação de modelos para computação ubíqua; criação automática de algoritmos.
+Eixo 5 – Aplicações Industriais:
+Construção automática e assistida de modelos para busca e otimização heurística; construção de modelos para CAD e CAM.
+Eixo 6 – Segurança, privacidade e desenvolvimento sustentável:
+Criação de modelos para detecção de malware; criptografia e compressão de dados.
+
+
+Requisitos
+[inserir imagem]
+A aplicação deverá permitir acesso utilizando autenticação.
+A aplicação deverá permitir a programação procedural utilizando blocos.
+A aplicação deverá permitir a programação em código utilizando as linguagens JavaScript e Python.
+A aplicação deverá permitir conversão de blocos em código JavaScript ou Python.
+A aplicação deverá permitir conversão de código JavaScript ou Python em blocos.
+A aplicação deverá permitir a criação de redes neurais dos tipos convolucionais, perceptron multicamadas e recorrente.
+A aplicação deverá permitir o treinamento de redes neurais dos tipos convolucionais, perceptron multicamadas e recorrente.
+A aplicação deverá permitir o uso de redes neurais treinadas dos tipos convolucionais, perceptron multicamadas e recorrente.
+A aplicação deverá permitir a criação e treinamento de árvores de decisão.
+A aplicação deverá permitir a criação e treinamento de árvores de decisão.
+A aplicação deverá permitir a criação e treinamento de florestas aleatórias.
+A aplicação deverá permitir a criação e treinamento de redes bayesianas.
+A aplicação deverá permitir a construção, parametrização e execução de algoritmos genéticos.
+A aplicação deverá permitir a criação e treinamento de redes K-NN.
+A aplicação deverá permitir a construção e execução de máquinas de vetores de suporte.
+A aplicação deverá permitir a aquisição de dados em formatos CSV, Excel, JSON, Pajek e Gephi.
+A aplicação deverá permitir a visualização de gráficos de séries temporais.
+

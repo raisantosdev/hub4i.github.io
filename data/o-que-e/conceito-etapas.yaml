@@ -1,0 +1,16 @@
+enabled: true
+id: "conceito-etapas"
+
+content:
+  - image: "images/portfolio-ecommerce.png"
+    pretitle: "Conceito"
+    title: "O que é o CPA-IA?"
+    text: "O Centro de Pesquisa Aplicada em Inteligência Artificial tem como foco o desenvolvimento de uma plataforma digital, aberta e multiusuário de ciência de dados e I-AI para o desenvolvimento e modernização da indústria brasileira, visando alcançar os padrões em contínua evolução da Indústria 4.0.  Diferentemente das plataformas proprietárias, essa plataforma será apropriada pelo Governo Brasileiro, permitindo o acesso a micro, pequenas e médias empresas a ferramentas capazes de acelerar os seus processos de inovação e manufatura inteligente, podendo também ser incorporada pelas empresas privadas em sua própria infraestrutura de computação, aproveitando a capilaridade do SENAI em nível Nacional. Conta com a participação de instituições nacionais e internacionais (11 instituições em 07 países diferentes). O objetivo do projeto é desenvolver uma aplicação de código fonte aberto que facilite o processo de análise de dados e construção de modelos de aprendizagem de máquina, incluindo inteligência artificial simbólica e biologicamente inspirada que integre as principais ferramentas disponíveis no mercado para estas tarefas."
+
+
+  - image: "images/portfolio-ecommerce.png"
+    pretitle: "Etapas"
+    title: "We developed an eCommerce website"
+    text: "Primeiro ano: análise de requisitos e definição de escopo; /n Segundo ano: construção do primeiro protótipo funcional; /n Terceiro ano: refinamento do protótipo; /n Quarto ano: finalização da plataforma e apresentação pública dos resultados."
+
+
