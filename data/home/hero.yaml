@@ -2,8 +2,8 @@ enabled: true
 id: "hero"
 
 content:
-  title: "How to **level up** your business"
-  text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est faucibus tellus leo non pellentesque lorem vel. Arcu magna eros, potenti duis."
+  title: "Hub of New Digital Technologies for Industry."
+  text: "Explore como as novas tecnologias digitais podem impulsionar seu negócio para o próximo nível. Nosso grupo de pesquisa está focado em soluções inovadoras para a indústria."
 
   buttonPrimary:
     label: "How we work"
