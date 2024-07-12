@@ -43,12 +43,12 @@ menus:
       url: "/#hero"
       weight: 1
 
-    - name: "Pesquisa"
-      url: "/#pesquisa"
+    - name: "Projetos"
+      url: "/#services"
       weight: 2
 
-    - name: "Estrutura"
-      url: "/#estrutura"
+    - name: "Equipe"
+      url: "/#team"
       weight: 3
 
     - name: "Aplicação"
@@ -67,7 +67,7 @@ menus:
 
   footer:
     - name: "O que é o CPA-IA?"
-      url: "/#o-que-e"
+      url: "/#hero"
       weight: 1
 
     - name: "Pesquisa"
