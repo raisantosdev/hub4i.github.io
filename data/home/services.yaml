@@ -5,7 +5,7 @@ content:
   title: "Projetos"
   text: "Descubra nossos projetos inovadores na área de Inteligência Artificial, desenvolvidos para revolucionar a indústria e solucionar desafios complexos com tecnologia de ponta."
   cards:
-    - image: "images/aservices-web-development.png"
+    - image: "images/services-web-development.png"
       title: "Reconhecimento de Imagens"
       text: "Desenvolvemos algoritmos avançados de reconhecimento de imagens que podem identificar e classificar objetos com alta precisão, utilizando redes neurais convolucionais."
       button:
