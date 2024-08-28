@@ -1,0 +1,106 @@
+baseURL: "https://www.example.com/"
+title: "H4I"
+theme: "hugo-universal-theme"
+languageCode: "pt-br"
+#themesDir = "../.."
+# Site language. Available translations in the theme's `/i18n` directory.
+#defaultContentLanguage = "en"
+# Enable comments by entering your Disqus shortname
+#disqusShortname = "devcows"
+# Enable Google Analytics by entering your tracking code
+#googleAnalytics = ""
+
+# number of words of summarized post content (default 70)
+summaryLength = 70
+
+# Define the number of posts per page
+paginate = 10
+
+# not pluralize title pages by default
+pluralizelisttitles = false
+
+
+summaryLength: 20
+
+params:
+  title: "H4I"
+  description: "Hub of New Digital Technologies for Industry."
+  images: 
+    - "images/hero-image.png"
+
+  logo: "arrow-up.png"
+
+  favicons:
+    themeColor: "#FFFFFF"
+    backgroundColor: "#FFFFFF"
+    faviconColor: "#000000"
+
+  social:
+    dribbble: "#"
+    instagram: "#"
+    facebook: "#"
+    twitter: "#"
+
+  location:
+    - "3891 Ranchview Dr. Richardson, California 62639"
+    - "4517 Washington Ave. Manchester, Kentucky 39495"
+
+  contact:
+    - "trungkienspktnd@gamail.com"
+    - "207.555.0119"
+
+  copyright: "© 2024 H4I  All Rights Reserved"
+
+menus:
+  main:
+    - name: "H4i"
+      url: "/#hero"
+      weight: 1
+
+    - name: "Linhas de Pesquisa"
+      url: "/#services"
+      weight: 2
+
+    - name: "Pesquisadores"
+      url: "/#team"
+      weight: 3
+
+    - name: "Cursos"
+      url: "/#portifolio"
+      weight: 4
+
+    - name: "Noticias"
+      url: "/blog"
+      weight: 5
+
+  buttons:
+    - name: "Contato"
+      url: "/#"
+      weight: 6
+      pre: "btn btn-primary text-light"
+
+  footer:
+    - name: "H4i"
+      url: "/#hero"
+      weight: 1
+
+    - name: "Linhas de Pesquisa"
+      url: "/#services"
+      weight: 2
+
+    - name: "Pesquisadores"
+      url: "/#team"
+      weight: 3
+
+    - name: "Cursos"
+      url: "/#portifolio"
+      weight: 4
+
+    - name: "Noticias"
+      url: "/blog"
+      weight: 5
+
+
+taxonomies:
+  series: "series"
+  tags: "tags"

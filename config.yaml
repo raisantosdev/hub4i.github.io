@@ -1,92 +1,356 @@
-baseURL: "https://www.example.com/"
-theme: "up-business-theme"
+baseurl: "https://hub4i.github.io/hugo-universal-theme/" # Configure URL. if using gh-pages https://github.com/<username>/hugo-universal-theme URL: https://<username>.github.io/hugo-universal-theme/
+title: "hub4i"
+theme: "hugo-universal-theme"
+# themesDir: "../.."
 languageCode: "pt-br"
+defaultContentLanguage: "pt-br"
+services:
+  disqus:
+    shortname: "hub4i"
 
-title: "H4I"
+googleAnalytics: ""
 
-# googleAnalytics: ""
+summaryLength: 70
+paginate: 10
+pluralizelisttitles: false
 
-summaryLength: 20
+menu:
+  main:
+    - name: "Home"
+      identifier: "menu.home"
+      url: "/"
+      weight: 1
+    # - name: "Option 1: Default Page"
+    #   url: "/"
+    #   weight: 1
+    #   parent: "menu.home"
+    # - name: "Option 2: Application"
+    #   url: "/"
+    #   weight: 2
+    #   parent: "menu.home"
+    # - name: "Option 3: Startup"
+    #   url: "/"
+    #   weight: 3
+    #   parent: "menu.home"
+    # - name: "Option 4: Agency"
+    #   url: "/"
+    #   weight: 4
+    #   parent: "menu.home"
+    # - name: "Option 5: Portfolio"
+    #   url: "/"
+    #   weight: 5
+    #   parent: "menu.home"
+    - name: "Pesquisa"
+      identifier: "menu.features"
+      url: "/img/template-easy-customize.png"
+      weight: 3
+    - name: "Linhas de Pesquisa"
+      identifier: "section.shortcodes"
+      url: ""
+      weight: 1
+      parent: "menu.features"
+      post: 1
+    - name: "Eixos Temáticos"
+      identifier: "section.headervariations"
+      url: ""
+      weight: 2
+      parent: "menu.features"
+      post: 2
+    - name: "Linha 1"
+      url: ""
+      weight: 1
+      parent: "section.shortcodes"
+    - name: "Linha 2"
+      url: ""
+      weight: 2
+      parent: "section.shortcodes"
+    - name: "Linha 3"
+      url: ""
+      weight: 3
+      parent: "section.shortcodes"
+    - name: "Eixo 1"
+      url: ""
+      weight: 1
+      parent: "section.headervariations"
+    - name: "Eixo 2"
+      url: ""
+      weight: 2
+      parent: "section.headervariations"
+    - name: "Eixo 3"
+      url: ""
+      weight: 3
+      parent: "section.headervariations"
+    - name: "Pesquisadores"
+      identifier: "menu.portfolio"
+      url: "/img/template-homepage.png"
+      weight: 3
+    - name: "Projetos"
+      identifier: "section.portfolio"
+      url: ""
+      weight: 1
+      parent: "menu.portfolio"
+      post: 1
+    - name: "Projeto 1"
+      url: ""
+      weight: 1
+      parent: "section.portfolio"
+    - name: "Projeto 2"
+      url: ""
+      weight: 2
+      parent: "section.portfolio"
+    - name: "Projeto 3"
+      url: ""
+      weight: 3
+      parent: "section.portfolio"
+    - name: "3 Columns With Negative Space"
+      url: ""
+      weight: 4
+      parent: "section.portfolio"
+    - name: "4 Columns"
+      url: ""
+      weight: 5
+      parent: "section.portfolio"
+    - name: "4 Columns With Negative Space"
+      url: ""
+      weight: 6
+      parent: "section.portfolio"
+    - name: "Portfolio - detail"
+      url: ""
+      weight: 7
+      parent: "section.portfolio"
+    - name: "Portfolio - detail 2"
+      url: ""
+      weight: 8
+      parent: "section.portfolio"
+    - name: "Pesquisadores"
+      identifier: "section.about"
+      url: ""
+      weight: 2
+      parent: "menu.portfolio"
+      post: 2
+    - name: "Time"
+      url: ""
+      weight: 1
+      parent: "section.about"
+    - name: "Pesquisadores"
+      url: ""
+      weight: 2
+      parent: "section.about"
+    - name: "Instituições Participantes"
+      url: ""
+      weight: 3
+      parent: "section.about"      
+    # - name: "Marketing"
+    #   identifier: "section.marketing"
+    #   url: ""
+    #   weight: 3
+    #   parent: "menu.portfolio"
+    #   post: 2
+    # - name: "Packages"
+    #   url: ""
+    #   weight: 1
+    #   parent: "section.marketing"
+    - name: "Mais"
+      identifier: "menu.allpages"
+      url: ""
+      weight: 4
+    - name: "Editais"
+      identifier: "section.ap-home"
+      url: ""
+      weight: 1
+      parent: "menu.allpages"
+      post: 1
+    - name: "Cursos"
+      identifier: "section.ap-about"
+      url: ""
+      weight: 2
+      parent: "menu.allpages"
+      post: 2
+    # - name: "Marketing"
+    #   identifier: "section.ap-marketing"
+    #   url: ""
+    #   weight: 3
+    #   parent: "menu.allpages"
+    #   post: 1
+    # - name: "Portfolio"
+    #   identifier: "section.ap-portfolio"
+    #   url: ""
+    #   weight: 1
+    #   parent: "menu.allpages"
+    #   post: 2
+    # - name: "User Pages"
+    #   identifier: "section.ap-userpages"
+    #   url: ""
+    #   weight: 2
+    #   parent: "menu.allpages"
+    #   post: 2
+    # - name: "Shop"
+    #   identifier: "section.ap-shop"
+    #   url: ""
+    #   weight: 1
+    #   parent: "menu.allpages"
+    #   post: 3
+    # - name: "Shop - Order Process"
+    #   identifier: "section.ap-shoporderprocess"
+    #   url: ""
+    #   weight: 2
+    #   parent: "menu.allpages"
+    #   post: 3
+    # - name: "Contact"
+    #   identifier: "section.ap-contact"
+    #   url: ""
+    #   weight: 1
+    #   parent: "menu.allpages"
+    #   post: 4
+    # - name: "Pages"
+    #   identifier: "section.ap-pages"
+    #   url: ""
+    #   weight: 2
+    #   parent: "menu.allpages"
+    #   post: 4
+    # - name: "Blog"
+    #   identifier: "section.ap-blog"
+    #   url: "/blog/"
+    #   weight: 3
+    #   parent: "menu.allpages"
+    #   post: 4
+    # - name: "Blog Listing Big"
+    #   url: "/blog/"
+    #   weight: 1
+    #   parent: "section.ap-blog"
+    - name: "Notícias"
+      identifier: "menu.blog"
+      url: "/blog/"
+      weight: 5
+    # - name: "FAQ"
+    #   identifier: "menu.faq"
+    #   url: "/faq/"
+    #   weight: 6
+    - identifier: "contact"
+      name: "Contact"
+      url: "/contact/"
+      weight: 7
+  topbar:
+    - weight: 1
+      name: "Phone"
+      url: "tel:+12 34 567 89 01"
+      pre: "<i class='fas fa-2x fa-phone'></i>"
+    - weight: 2
+      name: "GitHub"
+      url: "https://github.com/devcows/hugo-universal-theme"
+      pre: "<i class='fab fa-2x fa-github'></i>"
+    - weight: 3
+      name: "Facebook"
+      url: "http://facebook.com"
+      pre: "<i class='fab fa-2x fa-facebook'></i>"
+    - weight: 4
+      name: "Twitter"
+      url: "http://twitter.com"
+      pre: "<i class='fab fa-2x fa-twitter'></i>"
+    - weight: 5
+      name: "Email"
+      url: "mailto:hello@universal.com"
+      pre: "<i class='fas fa-2x fa-envelope'></i>"
 
 params:
-  title: "H4I"
-  description: "Hub of New Digital Technologies for Industry."
-  images: 
-    - "images/hero-image.png"
-
-  logo: "arrow-up.png"
-
-  favicons:
-    themeColor: "#FFFFFF"
-    backgroundColor: "#FFFFFF"
-    faviconColor: "#000000"
-
-  social:
-    dribbble: "#"
-    instagram: "#"
-    facebook: "#"
-    twitter: "#"
-
-  location:
-    - "3891 Ranchview Dr. Richardson, California 62639"
-    - "4517 Washington Ave. Manchester, Kentucky 39495"
-
-  contact:
-    - "trungkienspktnd@gamail.com"
-    - "207.555.0119"
-
-  copyright: "© 2024 H4I  All Rights Reserved"
-
-menus:
-  main:
-    - name: "H4i"
-      url: "/#hero"
-      weight: 1
-
-    - name: "Linhas de Pesquisa"
-      url: "/#services"
-      weight: 2
-
-    - name: "Pesquisadores"
-      url: "/#team"
-      weight: 3
-
-    - name: "Cursos"
-      url: "/#portifolio"
-      weight: 4
-
-    - name: "Noticias"
-      url: "/blog"
-      weight: 5
-
-  buttons:
-    - name: "Contato"
-      url: "/#"
-      weight: 6
-      pre: "btn btn-primary text-light"
-
+  viewMorePostLink: "/blog/"
+  author: "hub4i"
+  defaultKeywords:
+    - "hub4i"
+    - "Technologies"
+    - "Industry"
+  mainSections:
+    - "blog"
+  defaultDescription: "Hub of New Digital Technologies for Industry"
+  #facebook_site: "" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
+  #twitter_site: "GoHugoIO" # the Twitter handle of your site (without the '@')
+  default_sharing_image: "img/sharing-default.png"
+  enableGoogleMaps: true
+  googleMapsApiKey: "" #"AIzaSyAv7Sza8NSp9_l_g8G2vlo0H4ydEPn_2jY"
+  latitude: "-12.9714"
+  longitude: "-38.5014"
+  style: "default"
+  formspree_action: "https://formspree.io/sample/of/endpoint"
+  contact_form_ajax: false
+  enableRecaptchaInContactForm: false
+  googleRecaptchaKey: "site_key_for_google_recaptcha"
+  about_us: "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
+  copyright: "Copyright (c) 2024 - 2024, hub4i all rights reserved."
+  date_format: "02 de Janeiro de 2006" #"January 2, 2006"
+  dropdown_mouse_over: false
+  disabled_logo: false
+  logo_text: "Hub4i"
+  logo: "img/logo.png"
+  logo_small: "img/logo-small.png"
+  contact_url: "./contact"
+  address: |
+    <p class="text-uppercase"><strong>hub 4 i</strong>
+    <br>Rua e numero
+    <br>Bairro
+    <br>4000-000
+    <br>Salvador-Bahia
+    <br>
+    <strong>Brasil</strong>
+    </p>
+  topbar:
+    enable: true
+    text: |
+      <p class="hidden-sm hidden-xs">Contato +55 71 9999 99999 or email@h4i.com.</p>
+      <p class="hidden-md hidden-lg"><a href="tel:+55 71 9999 99999" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
+      <a href="mailto:email@h4i.com" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
+      </p>
+  widgets:
+    categories: true
+    tags: true
+    search: true
+  carouselCustomers:
+    items: 6
+    auto_play: false
+    slide_speed: 2000
+    pagination_speed: 1000
+  carouselTestimonials:
+    items: 4
+    auto_play: false
+    slide_speed: 2000
+    pagination_speed: 1000
+  carouselHomepage:
+    enable: true
+    auto_play: true
+    slide_speed: 2000
+    pagination_speed: 1000
+  features:
+    enable: true
+    cols: 3
+  testimonials:
+    enable: true
+    title: "Testimonials"
+    subtitle: "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
+  see_more:
+    enable: true
+    icon: "far fa-file-alt"
+    title: "Do you want to see more?"
+    subtitle: "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
+    link_url: "#"
+    link_text: "Check other homepages"
+  clients:
+    enable: true
+    title: "Parceiros"
+    subtitle: ""
+  recent_posts:
+    enable: true
+    title: "Notícias"
+    subtitle: "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
+    hide_summary: false
+  team:
+    enable: true
   footer:
-    - name: "H4i"
-      url: "/#hero"
-      weight: 1
+    recent_posts:
+      enable: true
 
-    - name: "Linhas de Pesquisa"
-      url: "/#services"
-      weight: 2
-
-    - name: "Pesquisadores"
-      url: "/#team"
-      weight: 3
-
-    - name: "Cursos"
-      url: "/#portifolio"
-      weight: 4
-
-    - name: "Noticias"
-      url: "/blog"
-      weight: 5
-
+permalinks:
+  blog: "/blog/:year/:month/:day/:filename/"
 
 taxonomies:
-  series: "series"
-  tags: "tags"
+  category: "categories"
+  tag: "tags"
+  author: "authors"
