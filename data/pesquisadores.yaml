@@ -1,0 +1,19 @@
+- name: "Dra. Ana Beatriz"
+  instituicao: "Universidade de São Paulo"
+  bio: "Ana Beatriz é especialista em aprendizado de máquina e desenvolve algoritmos para prever tendências futuras."
+  image: "img/clients/customer-1.png"
+
+- name: "Dr. Carlos Eduardo"
+  instituicao: "Universidade Estadual de Campinas"
+  bio: "Carlos Eduardo lidera pesquisas inovadoras no desenvolvimento de novos biocombustíveis."
+  image: "img/clients/customer-1.png"
+
+- name: "Dra. Fernanda Lima"
+  instituicao: "Universidade Federal do Rio de Janeiro"
+  bio: "Fernanda Lima estuda os impactos das mudanças climáticas nas regiões costeiras."
+  image: "img/clients/customer-1.png"
+
+- name: "Dr. João Pedro"
+  instituicao: "Universidade de Brasília"
+  bio: "João Pedro trabalha na teoria das cordas e está explorando as dimensões ocultas do universo."
+  image: "img/clients/customer-1.png"

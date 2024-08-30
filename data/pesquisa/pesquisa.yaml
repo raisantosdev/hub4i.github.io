@@ -1,24 +1,16 @@
-enabled: true
-id: "pesquisa"
-
-content:
-  - image: "images/portfolio-ecommerce.png"
-    pretitle: "Metodologia"
-    title: "Metodologia"
-    text: "As seguintes etapas metodológicas foram realizadas na pesquisa:\nBusca nas bases de dados.\nCompilação dos trabalhos retornados em uma base de dados.\nExtração dos títulos dos trabalhos.\nConstrução de uma rede semântica de títulos.\nCálculo das Incidências Fidelidades dos pares de palavras encontrados nos títulos.\nLevantamento das aplicações, métodos de inteligência artificial e tecnologias utilizados.\nAnálise dos cenários científico, tecnológico e social atuais."
-
-
-  - image: "images/portfolio-ecommerce.png"
-    pretitle: "Aplicações"
-    title: "Aplicações"
-    text: "Análise de dados.\nAnálise de imagens médicas.\nAplicações do mundo real.\nAprendendo da cosmologia.\nAprendizado de grafos de rede.\nAprendizado de máquina quântica.\nCiência de materiais.\nCiências físicas.\nClassificação biomédica de séries temporais.\nClassificação de phishing em e-mail.\nDesign inteligente.\nDetecção de anomalias.\nDetecção de ataques.\nDetecção de doenças.\nDetecção de malware.\nDetecção de objetos.\nDetecção de tumor cerebral.\nDetecção de veículos.\nEstimativa queimadas de florestas.\nMecânica dos fluidos.\nMorfologias de galáxias.\nNavegação de veículo aéreo não tripulado.\nOtimização de busca.\nPrevisão de câncer.\nPrevisão de doença cardíaca.\nPrevisão de mortes por doenças.\nPrevisão de produção.\nPrevisão de risco.\nPrevisão de taxa de transferência em redes.\nPrevisão do tempo.\nProcessamento de imagens aéreas.\nProcessamento de imagens de raios-x."
-  
-  - image: "images/portfolio-ecommerce.png"
-    pretitle: "Técnicas"
-    title: "Técnicas"
-    text: "Artificial neural network.\nConvolutional neural networks.\nDecision trees.\nDeep Learning Feed Forward Neural Networks.\nDeep neural networks.\nExtreme Gradient Boosted Tree.\nGated Recurrent Unit.\nGenerative adversarial network.\nGenetic Algorithm.\nKernel-based regression networks.\nK-Means.\nK-Nearest Neighbors.\nLogistic regression.\nLong Short Term Memory.\nMarkov decision process.\nNaive Bayes algorithm.\nRandom forest.\nRecurrent neural networks.\nRestricted Boltzmann machine.\nShallow neural network.\nSingle shot detectors.\nSupport vector machines.\nSynthetic minority oversampling technique.\nYou Only Look Once."
-
-  - image: "images/portfolio-ecommerce.png"
-    pretitle: "Tecnologias encontradas"
-    title: "Tecnologias encontradas"
-    text: "cuDNN \n Keras \n PyTorch \n Scikit-learn \n TensorFlow \n Theano \n ChatGPT"
+- image: "images/portfolio-ecommerce.png"
+  pretitle: "Metodologia"
+  title: "Metodologia"
+  text: "As seguintes etapas metodológicas foram realizadas na pesquisa:\nBusca nas bases de dados.\nCompilação dos trabalhos retornados em uma base de dados.\nExtração dos títulos dos trabalhos.\nConstrução de uma rede semântica de títulos.\nCálculo das Incidências Fidelidades dos pares de palavras encontrados nos títulos.\nLevantamento das aplicações, métodos de inteligência artificial e tecnologias utilizados.\nAnálise dos cenários científico, tecnológico e social atuais."
+- image: "images/portfolio-ecommerce.png"
+  pretitle: "Aplicações"
+  title: "Aplicações"
+  text: "Análise de dados.\nAnálise de imagens médicas.\nAplicações do mundo real.\nAprendendo da cosmologia.\nAprendizado de grafos de rede.\nAprendizado de máquina quântica.\nCiência de materiais.\nCiências físicas.\nClassificação biomédica de séries temporais.\nClassificação de phishing em e-mail.\nDesign inteligente.\nDetecção de anomalias.\nDetecção de ataques.\nDetecção de doenças.\nDetecção de malware.\nDetecção de objetos.\nDetecção de tumor cerebral.\nDetecção de veículos.\nEstimativa queimadas de florestas.\nMecânica dos fluidos.\nMorfologias de galáxias.\nNavegação de veículo aéreo não tripulado.\nOtimização de busca.\nPrevisão de câncer.\nPrevisão de doença cardíaca.\nPrevisão de mortes por doenças.\nPrevisão de produção.\nPrevisão de risco.\nPrevisão de taxa de transferência em redes.\nPrevisão do tempo.\nProcessamento de imagens aéreas.\nProcessamento de imagens de raios-x."
+- image: "images/portfolio-ecommerce.png"
+  pretitle: "Técnicas"
+  title: "Técnicas"
+  text: "Artificial neural network.\nConvolutional neural networks.\nDecision trees.\nDeep Learning Feed Forward Neural Networks.\nDeep neural networks.\nExtreme Gradient Boosted Tree.\nGated Recurrent Unit.\nGenerative adversarial network.\nGenetic Algorithm.\nKernel-based regression networks.\nK-Means.\nK-Nearest Neighbors.\nLogistic regression.\nLong Short Term Memory.\nMarkov decision process.\nNaive Bayes algorithm.\nRandom forest.\nRecurrent neural networks.\nRestricted Boltzmann machine.\nShallow neural network.\nSingle shot detectors.\nSupport vector machines.\nSynthetic minority oversampling technique.\nYou Only Look Once."
+- image: "images/portfolio-ecommerce.png"
+  pretitle: "Tecnologias encontradas"
+  title: "Tecnologias encontradas"
+  text: "cuDNN \n Keras \n PyTorch \n Scikit-learn \n TensorFlow \n Theano \n ChatGPT"

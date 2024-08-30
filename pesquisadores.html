@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+<head>
+  {{ partial "headers.html" . }}
+  {{ partial "custom_headers.html" . }}
+</head>
+
+<body>
+  <div id="all">
+
+    {{ partial "top.html" . }}
+
+    {{ partial "nav.html" . }}
+
+    {{ partial "breadcrumbs.html" . }}
+    <div id="content">
+      <div class="container">
+        <div class="row justify-content-center">
+          <!-- *** MAIN COLUMN *** -->
+          <div class="col-md-12" id="researchers-listing">
+            <div class="row">
+              {{ range .Site.Data.pesquisadores }}
+              <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                  <img class="card-img-top img-fluid" src="{{ .image | relURL }}" alt="{{ .name }}" style="height: 200px; object-fit: cover;">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">{{ .name }}</h5>
+                    <p class="card-text">{{ .instituicao }}</p>
+                  </div>
+                </div>
+              </div>
+              {{ end }}
+            </div>
+          </div>
+          <!-- /.col-md-12 -->
+          <!-- *** MAIN COLUMN END *** -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </div>
+    <!-- /#content -->
+
+    {{ partial "footer.html" . }}
+
+  </div>
+  <!-- /#all -->
+
+  {{ partial "scripts.html" . }}
+
+</body>
+
+</html>

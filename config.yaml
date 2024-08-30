@@ -128,17 +128,17 @@ menu:
       weight: 2
       parent: "menu.portfolio"
       post: 2
-    - name: "Time"
-      url: ""
-      weight: 1
-      parent: "section.about"
+    # - name: "Time"
+    #   url: ""
+    #   weight: 1
+    #   parent: "section.about"
     - name: "Pesquisadores"
-      url: ""
-      weight: 2
+      url: "/pesquisadores/"
+      weight: 1
       parent: "section.about"
     - name: "Instituições Participantes"
       url: ""
-      weight: 3
+      weight: 2
       parent: "section.about"      
     # - name: "Marketing"
     #   identifier: "section.marketing"
